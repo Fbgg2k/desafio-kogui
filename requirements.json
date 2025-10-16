@@ -1,0 +1,16 @@
+[
+  {
+    "type": "command",
+    "details": {
+      "commands": [
+        "sudo apt update && sudo apt install -y curl build-essential git ca-certificates sqlite3 python3.10 python3.10-venv python3-pip",
+        "curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash - && sudo apt-get install -y nodejs",
+        "node -v && npm -v && python3.10 --version && sqlite3 --version",
+        "sudo npm install -g @angular/cli",
+        "python3.10 -m venv venv && source venv/bin/activate",
+        "pip install --upgrade pip && pip install Flask Flask-SQLAlchemy Flask-Migrate Flask-JWT-Extended Flask-CORS requests python-dotenv bcrypt",
+        "ng version"
+      ]
+    }
+  }
+]
